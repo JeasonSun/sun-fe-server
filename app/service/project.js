@@ -7,7 +7,6 @@ class ProjectService extends Service {
     const {
       ctx,
     } = this;
-    console.log('service getProject', ctx.model);
     return ctx.model.Project.find(payload);
   }
 }
